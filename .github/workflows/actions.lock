@@ -18,7 +18,7 @@ workflows:
         - 'actions/attest@v4.2.2'
         - 'actions/checkout@v7.0.1'
         - 'docker/build-push-action@v4.0.0'
-        - 'docker/login-action@v2.1.0'
+        - 'docker/login-action@v4.7.0'
         - 'docker/metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7'
 dependencies:
     'actions/attest@v4.2.2':
@@ -41,9 +41,9 @@ dependencies:
         commit: 'sha1-3b5e8027fcad23fda98b2e3ac259d8d67585f671'
         owner_id: 5429470
         repo_id: 241092383
-    'docker/login-action@v2.1.0':
-        ref: 'v2.1.0'
-        commit: 'sha1-f4ef78c080cd8ba55a85445d5b36e214a81df20a'
+    'docker/login-action@v4.7.0':
+        ref: 'v4.7.0'
+        commit: 'sha1-81c6f93d4bc991e510b342a00b419b3bb4efc5c6'
         owner_id: 5429470
         repo_id: 287743349
     'docker/metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7':
