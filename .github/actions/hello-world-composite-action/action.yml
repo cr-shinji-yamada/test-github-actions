@@ -33,3 +33,9 @@ runs:
       run: goodbye.sh
       shell: bash
 
+      -name: secrets number here
+      run: echo ""
+      shell: bash
+      env:
+        RANDOM_NUBER:
+
